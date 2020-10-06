@@ -4,11 +4,11 @@
 class Person {
     // Properties
     // Private so cannot be accessed outside of the class
-    private $name;
-    private $age;
+    private string $name;
+    private string $age;
 
     // constructing a new object with new Person
-    public function __construct($name, $age) {
+    public function __construct(string $name, string $age) {
         $this->name = $name;
         $this->age = $age;
     }
@@ -28,17 +28,17 @@ class Person {
     }
 
     // allows private age value to be set
-    public function setAge($age) {
+    public function setAge(string $age) {
         $this->name = $age;
     }
 
     // allows private name value to be set
-    public function setName($name) {
+    public function setName(string $name) {
         $this->name = $name;
     }
 
     // static function accessed by Person::setPlanetHome();
-    public static function setPlanetHome($newPlanet) {
+    public static function setPlanetHome(string $newPlanet) {
         self::$planet = $newPlanet;
     }
 }

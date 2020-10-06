@@ -2,7 +2,7 @@
 
 spl_autoload_register('classAutoLoader');
 
-function classAutoLoader($className) {
+function classAutoLoader(string $className) {
     $path = "classes/";
     $extension = ".class.php";
     $fullPath = $path . $className . $extension;
@@ -18,7 +18,7 @@ function classAutoLoader($className) {
 
 spl_autoload_register('abstractAutoLoader');
 
-function abstractAutoLoader($abstractName) {
+function abstractAutoLoader(string $abstractName) {
     $path = "abstract/";
     $extension = ".abstract.php";
     $fullPath = $path . $abstractName . $extension;
