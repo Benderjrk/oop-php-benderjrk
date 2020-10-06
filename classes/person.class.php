@@ -10,6 +10,8 @@ class Person {
         $this->age = $age;
     }
 
+    public static $homePlanet = "Earth";
+
     public function getAge() {
         echo $this->age;
     }
@@ -24,6 +26,10 @@ class Person {
 
     public function setName($name) {
         $this->name = $name;
+    }
+
+    public static function setPlanetHome($newPlanet) {
+        self::$planet = $newPlanet;
     }
 }
 
