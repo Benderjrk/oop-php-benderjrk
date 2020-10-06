@@ -16,6 +16,8 @@ In an attempt to better understand Object Oriented Programming with PHP. I am cr
     - includes
         - autoloader.inc.php (autoloads the classes in index.php)
         - nameSubmit.inc.php (php page when form is submitted)
+    - validator
+        - formValidator.valid.php (working with more complex objects. Using static functions in public functions, complex function use cases)
 - README.md
 
 ## To Use
