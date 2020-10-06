@@ -6,11 +6,15 @@ In an attempt to better understand Object Oriented Programming with PHP. I am cr
 
 ## File Structure
 - index.php
-    - includes
-        - nameSubmit.inc.php (php page when form is submitted)
-        - autoloader.inc.php (autoloads the classes in index.php)
+    - abstract
+        - paymentTypes.abstract.php
     - classes
+        - airplaneFactory.class.php (simple class factory)
+        - payments.class.php (interface classes. grouping like classes together)
         - person.class.php (class with constructor, static data, static methods and methods)
+    - includes
+        - autoloader.inc.php (autoloads the classes in index.php)
+        - nameSubmit.inc.php (php page when form is submitted)
 - README.md
 
 ## To Use
