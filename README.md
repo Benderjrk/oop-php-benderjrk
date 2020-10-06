@@ -10,6 +10,7 @@ In an attempt to better understand Object Oriented Programming with PHP. I am cr
         - paymentTypes.abstract.php
     - classes
         - airplaneFactory.class.php (simple class factory)
+        - buyProduct.class.php (creating a class to extend an abstract from paymentType.abstract.php to buyProduct.class.php)
         - payments.class.php (interface classes. grouping like classes together)
         - person.class.php (class with constructor, static data, static methods and methods)
     - includes
