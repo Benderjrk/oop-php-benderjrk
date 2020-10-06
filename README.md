@@ -1,5 +1,5 @@
 # oop-php-benderjrk
-Building a skeleton for an OOP (Object Oriented Programming)
+Building a PHP learning template for an OOP (Object Oriented Programming)
 
 ## Create a PHP File Structure Worthy Of Reuse
 In an attempt to better understand Object Oriented Programming with PHP. I am creating this for an easy to use php project I understand.
