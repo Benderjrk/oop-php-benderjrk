@@ -7,10 +7,12 @@ In an attempt to better understand Object Oriented Programming with PHP. I am cr
 ## File Structure
 - index.php
     - includes
-        - autoloader.inc.php
+        - nameSubmit.inc.php
     - classes
         - person.class.php
 - README.md
 
 ## To Use
 The projects starts if you have a server capable of running php and point it towards the index.php file. I hope that it enough for you. I don't know what it really does yet.
+
+Command line (if you have php installed): php -S 127.0.0.1:8000 
